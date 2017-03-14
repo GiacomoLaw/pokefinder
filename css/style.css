@@ -13,3 +13,7 @@ button {
     font-size: 14px;
     border-radius: 12px;
 }
+
+.center {
+  text-align: center;
+}
