@@ -4,21 +4,7 @@
   <title>Pokefinder</title>
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
   <link rel="stylesheet" href="css/style.css" type="text/css" />
-  <script>
-  var i, checkboxes = document.querySelectorAll('input[type=checkbox]');
-
-function save() {
-    for (i = 0; i < checkboxes.length; i++) {
-        localStorage.setItem(checkboxes[i].value, checkboxes[i].checked); 
-    }
-}
-
-function load_() {
-    for (i = 0; i < checkboxes.length; i++) {
-        checkboxes[i].checked = localStorage.getItem(checkboxes[i].value) === 'true' ? true:false;
-    }
-} 
-  </script>
+  <script src="js/save.js"></script>
 </head>
 <body class="padding">
   <button onclick="save()">Save</button>
