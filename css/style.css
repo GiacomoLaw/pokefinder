@@ -15,8 +15,9 @@ button {
 }
 
 .center {
-      margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
+  width: 400px;
 }
 
 .padding-plus {
