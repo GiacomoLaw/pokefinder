@@ -3,7 +3,7 @@
 }
 
 button {
-    background-color: #cccccc;
+    background-color: #01b213;
     border: none;
     color: black;
     padding: 8px 15px;
@@ -12,6 +12,10 @@ button {
     display: inline-block;
     font-size: 14px;
     border-radius: 12px;
+}
+
+button:hover {
+    background-color: #01700c;
 }
 
 .center {
