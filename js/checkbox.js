@@ -7,3 +7,8 @@ $("input[value='rattata'][type='checkbox']").change(function(){
 $("input[value='pikipek'][type='checkbox']").change(function(){	
 	$("input[value='pikipek'][type='checkbox']").prop("checked", $(this).prop("checked"));
 });
+
+// yungoos checker
+$("input[value='yungoos'][type='checkbox']").change(function(){	
+	$("input[value='yungoos'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
