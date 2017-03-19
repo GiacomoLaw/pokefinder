@@ -1,5 +1,3 @@
-**Project delayed due to [issues with Pokesprite and jQuery](https://github.com/GiacomoLaw/pokefinder/issues/2)**
-
 # Pokefinder
 A checklist of Pokemon locations in Sun and Moon!
 
