@@ -49,3 +49,43 @@ $("input[value='grubbin'][type='checkbox']").change(function(){
 $("input[value='bonsly'][type='checkbox']").change(function(){	
 	$("input[value='bonsly'][type='checkbox']").prop("checked", $(this).prop("checked"));
 });
+
+// munchlax checker
+$("input[value='munchlax'][type='checkbox']").change(function(){	
+	$("input[value='munchlax'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// slowpoke checker
+$("input[value='slowpoke'][type='checkbox']").change(function(){	
+	$("input[value='slowpoke'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// wingull checker
+$("input[value='wingull'][type='checkbox']").change(function(){	
+	$("input[value='wingull'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// tentacool checker
+$("input[value='tentacool'][type='checkbox']").change(function(){	
+	$("input[value='tentacool'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// finneon checker
+$("input[value='finneon'][type='checkbox']").change(function(){	
+	$("input[value='finneon'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// magnemite checker
+$("input[value='magnemite'][type='checkbox']").change(function(){	
+	$("input[value='magnemite'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// grimer checker
+$("input[value='grimer'][type='checkbox']").change(function(){	
+	$("input[value='grimer'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// abra checker
+$("input[value='abra'][type='checkbox']").change(function(){	
+	$("input[value='abra'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
