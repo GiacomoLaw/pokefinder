@@ -124,3 +124,33 @@ $("input[value='metapod'][type='checkbox']").change(function(){
 $("input[value='butterfree'][type='checkbox']").change(function(){	
 	$("input[value='butterfree'][type='checkbox']").prop("checked", $(this).prop("checked"));
 });
+
+// ledian checker
+$("input[value='ledian'][type='checkbox']").change(function(){	
+	$("input[value='ledian'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// ariados checker
+$("input[value='ariados'][type='checkbox']").change(function(){	
+	$("input[value='ariados'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// pikachu checker
+$("input[value='pikachu'][type='checkbox']").change(function(){	
+	$("input[value='pikachu'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// raichu checker
+$("input[value='raichu'][type='checkbox']").change(function(){	
+	$("input[value='raichu'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// charjabug checker
+$("input[value='charjabug'][type='checkbox']").change(function(){	
+	$("input[value='charjabug'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// vikavolt checker
+$("input[value='vikavolt'][type='checkbox']").change(function(){	
+	$("input[value='vikavolt'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
