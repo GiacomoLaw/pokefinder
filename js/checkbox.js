@@ -154,3 +154,48 @@ $("input[value='charjabug'][type='checkbox']").change(function(){
 $("input[value='vikavolt'][type='checkbox']").change(function(){	
 	$("input[value='vikavolt'][type='checkbox']").prop("checked", $(this).prop("checked"));
 });
+
+// sudowoodo checker
+$("input[value='sudowoodo'][type='checkbox']").change(function(){	
+	$("input[value='sudowoodo'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// happiny checker
+$("input[value='happiny'][type='checkbox']").change(function(){	
+	$("input[value='happiny'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// chansey checker
+$("input[value='chansey'][type='checkbox']").change(function(){	
+	$("input[value='chansey'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// blissey checker
+$("input[value='blissey'][type='checkbox']").change(function(){	
+	$("input[value='blissey'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// munchlax checker
+$("input[value='munchlax'][type='checkbox']").change(function(){	
+	$("input[value='munchlax'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// snorlax checker
+$("input[value='snorlax'][type='checkbox']").change(function(){	
+	$("input[value='snorlax'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// slowbro checker
+$("input[value='slowbro'][type='checkbox']").change(function(){	
+	$("input[value='slowbro'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// slowking checker
+$("input[value='slowking'][type='checkbox']").change(function(){	
+	$("input[value='slowking'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// pelipper checker
+$("input[value='pelipper'][type='checkbox']").change(function(){	
+	$("input[value='pelipper'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
