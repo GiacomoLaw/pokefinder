@@ -89,3 +89,38 @@ $("input[value='grimer'][type='checkbox']").change(function(){
 $("input[value='abra'][type='checkbox']").change(function(){	
 	$("input[value='abra'][type='checkbox']").prop("checked", $(this).prop("checked"));
 });
+
+// caterpie checker
+$("input[value='caterpie'][type='checkbox']").change(function(){	
+	$("input[value='caterpie'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// trumbeak checker
+$("input[value='trumbeak'][type='checkbox']").change(function(){	
+	$("input[value='trumbeak'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// toucannon checker
+$("input[value='toucannon'][type='checkbox']").change(function(){	
+	$("input[value='toucannon'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// gumshoos checker
+$("input[value='gumshoos'][type='checkbox']").change(function(){	
+	$("input[value='gumshoos'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// raticate checker
+$("input[value='raticate'][type='checkbox']").change(function(){	
+	$("input[value='raticate'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// metapod checker
+$("input[value='metapod'][type='checkbox']").change(function(){	
+	$("input[value='metapod'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+// butterfree checker
+$("input[value='butterfree'][type='checkbox']").change(function(){	
+	$("input[value='butterfree'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
