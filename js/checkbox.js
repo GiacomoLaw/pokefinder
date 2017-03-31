@@ -224,3 +224,35 @@ $("input[value='drowzee'][type='checkbox']").change(function(){
 	$("input[value='drowzee'][type='checkbox']").prop("checked", $(this).prop("checked"));
 });
 
+$("input[value='hypno'][type='checkbox']").change(function(){	
+	$("input[value='hypno'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+$("input[value='makuhita'][type='checkbox']").change(function(){	
+	$("input[value='makuhita'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+$("input[value='hariyama'][type='checkbox']").change(function(){	
+	$("input[value='hariyama'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+$("input[value='smeargle'][type='checkbox']").change(function(){	
+	$("input[value='smeargle'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+$("input[value='crabrawler'][type='checkbox']").change(function(){	
+	$("input[value='crabrawler'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+$("input[value='gastly'][type='checkbox']").change(function(){	
+	$("input[value='gastly'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+$("input[value='haunter'][type='checkbox']").change(function(){	
+	$("input[value='haunter'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+$("input[value='gengar'][type='checkbox']").change(function(){	
+	$("input[value='gengar'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
