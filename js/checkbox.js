@@ -256,3 +256,35 @@ $("input[value='gengar'][type='checkbox']").change(function(){
 	$("input[value='gengar'][type='checkbox']").prop("checked", $(this).prop("checked"));
 });
 
+$("input[value='driftloon'][type='checkbox']").change(function(){	
+	$("input[value='driftloon'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+$("input[value='misdreavus'][type='checkbox']").change(function(){	
+	$("input[value='misdreavus'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+$("input[value='zubat'][type='checkbox']").change(function(){	
+	$("input[value='zubat'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+$("input[value='golbat'][type='checkbox']").change(function(){	
+	$("input[value='golbat'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+$("input[value='crobat'][type='checkbox']").change(function(){	
+	$("input[value='crobat'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+$("input[value='diglett'][type='checkbox']").change(function(){	
+	$("input[value='diglett'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+$("input[value='dugtrio'][type='checkbox']").change(function(){	
+	$("input[value='dugtrio'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
+$("input[value='spearow'][type='checkbox']").change(function(){	
+	$("input[value='spearow'][type='checkbox']").prop("checked", $(this).prop("checked"));
+});
+
