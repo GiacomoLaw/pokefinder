@@ -1,3 +1,5 @@
+**Project on hold - I'm currently very busy, and I hope to get around to this in the summer!**
+
 # Pokefinder
 A checklist of Pokemon locations in Sun and Moon!
 
