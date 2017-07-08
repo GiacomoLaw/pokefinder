@@ -64,3 +64,7 @@ li a:hover {
     bottom:0px;
     overflow-y:scroll;        
 }
+
+footer {
+    background-color: #DCDCDC;
+}
