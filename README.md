@@ -6,10 +6,10 @@ Pokefinder shows a list of locations by route that Pokemon can be found. It save
 You can use it as a Pokedex to check of Pokemon you have caught on certain routes, or as a route guide to find where to catch the Pokemon you next want to find.
 
 ## Features:
-* Every Pokemon from every route
-* Automatic selection of duplicate Pokemon that you have already selected
-* Local save
-* Links to each route section
+* Pokemon sorted by route and location, so you can find them easily
+* Automatic selection of duplicate Pokemon that you have already selected, so you won't go hunting for Pokemon you already have
+* Local save, so you can always load up the previous state of your checklist when you left the page
+* Links to each route section, so you can easily navigate them
 * And more!
 
 The project uses [Pokesprite](https://github.com/msikma/pokesprite) for the Pokemon sprites.
