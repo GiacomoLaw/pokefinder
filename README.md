@@ -3,6 +3,8 @@ A checklist of Pokemon locations in Sun and Moon!
 
 Pokefinder shows a list of locations by route that Pokemon can be found. It saves locally to your computer, and checks off duplicate Pokemon.
 
+You can use it as a Pokedex to check of Pokemon you have caught on certain routes, or as a route guide to find where to catch the Pokemon you next want to find.
+
 ## Features:
 * Every Pokemon from every route
 * Automatic selection of duplicate Pokemon that you have already selected
