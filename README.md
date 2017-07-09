@@ -34,6 +34,6 @@ Want to help out? If you see a bug, please feel free to fix it and submit a pull
 
 ---
 
-For contributors, please read the [contributing page](http://giacomolaw.me/pokefinder/contributing.html).
+For contributors, please read the [contributing page](contributions.html).
 
 Made by [Giacomo Lawrance](http://giacomolaw.me).
