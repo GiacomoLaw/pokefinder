@@ -13,7 +13,7 @@ Sorting Pokemon by their route and location allows you to easily find where to c
 Once you've finally caught a certain Pokemon, you can tick off that Pokemon on the website so you know you already have it.
 
 ### Automatic selection of duplicate Pokemon
-If you check off a Pokemon, all other instances of that Pokemon will also be checked off. For example, Mudbray appears on multiple routes, so once you have checked it off in one route, all the other Magikarps are checked off too. This means that you won't get confused if you have a certain Pokemon or if you don't.
+If you check off a Pokemon, all other instances of that Pokemon will also be checked off. For example, Mudbray appears on multiple routes, so once you have checked it off in one route, all the other Mudbrays are checked off too. This means that you won't get confused if you have a certain Pokemon or if you don't.
 
 ### Local save
 With Pokefinder you can save your checklist status to your computer locally. Just hit save at the top of the page, and your checklist statues will be saved. When you open the page again, selecting load will load up the checklist status that you saved.
