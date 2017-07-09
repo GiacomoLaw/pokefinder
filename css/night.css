@@ -22,3 +22,18 @@ button {
 button:hover {
     background-color: #DCDCDC;
 }
+
+ul {
+    background-color: #696969;
+    color: white;
+}
+
+li a {
+    color: white;
+}
+
+/* Change the link color on hover */
+li a:hover {
+      background-color: #DCDCDC;
+      color: white;
+}
