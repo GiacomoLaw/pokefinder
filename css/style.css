@@ -68,3 +68,9 @@ li a:hover {
 footer {
     background-color: #DCDCDC;
 }
+
+
+.nmode {
+    background-color: black;
+    color: white;
+}
