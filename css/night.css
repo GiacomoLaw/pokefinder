@@ -45,3 +45,9 @@ footer {
 a {
    color: #008B8B;
 }
+
+/* day mode button styling */
+.dmode {
+   background-color: white;
+   color: black;
+}
