@@ -13,3 +13,6 @@ You can use it as a Pokedex to check of Pokemon you have caught on certain route
 * And more!
 
 The project uses [Pokesprite](https://github.com/msikma/pokesprite) for the Pokemon sprites.
+
+## Contributing/bugs/feature requests:
+Want to help out? If you see a bug, please feel free to fix it and submit a pull request, or make an issue. Also, please feel free to make an issue for any feature requests you would like to see!
