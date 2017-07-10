@@ -62,7 +62,14 @@ li a:hover {
     left:0px;
     right:0px;
     bottom:0px;
-    overflow-y:scroll;        
+    overflow-y:scroll;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
 }
 
 footer {
