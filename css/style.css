@@ -81,3 +81,53 @@ footer {
     background-color: black;
     color: white;
 }
+
+input#lightswitch {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+
+input#lightswitch:checked + .main {
+  background: #000d1a;
+  color: white;
+}
+
+input#lightswitch:checked + button {
+    background-color: #696969;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+input#lightswitch:checked + button:hover {
+    background-color: #DCDCDC;
+}
+
+input#lightswitch:checked + ul {
+    background-color: #696969;
+    color: white;
+}
+
+input#lightswitch:checked + li a {
+    color: white;
+}
+
+/* Change the link color on hover */
+input#lightswitch:checked + li a:hover {
+      background-color: #DCDCDC;
+      color: white;
+}
+
+input#lightswitch:checked + footer {
+   background-color: #696969;
+}
+
+input#lightswitch:checked + a {
+   color: #008B8B;
+}
