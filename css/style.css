@@ -81,3 +81,27 @@ footer {
     background-color: black;
     color: white;
 }
+
+/*Light Switch*/
+label {
+  display: block;
+  height: 25px;
+  width: 100px;
+  background: #eee;
+  text-align: center;
+  font: 14px/25px Helvetica, Arial, sans-serif;
+  margin: 20px 0;
+  position: fixed;
+}
+
+label:hover {
+  background: #ddca7e;
+  color: #fff;
+  cursor: pointer;
+}
+
+input#lightswitch {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
