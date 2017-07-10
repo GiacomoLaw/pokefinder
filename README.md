@@ -36,6 +36,6 @@ Want to help out? If you see a bug, please feel free to fix it and submit a pull
 
 For contributors, please read the [contributing page](contributions.html).
 
-Check out the [Reddit post](https://www.reddit.com/r/pokemon/comments/6m7hoj/announcing_pokefinder_a_checklist_of_pokemon/).
+Check out the [Reddit post](https://www.reddit.com/r/pokemon/comments/6m7hoj/announcing_pokefinder_a_checklist_of_pokemon/) announcing Pokefinder.
 
 Made by [Giacomo Lawrance](http://giacomolaw.me).
