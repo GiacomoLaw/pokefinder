@@ -24,8 +24,6 @@ At the top of the page there is a route table of contents, that allows you to qu
 ### Night mode
 Hunting Pokemon into the night? Night mode will allow you to use Pokefinder with ease in the dark.
 
-> Night mode is still in beta
-
 ### And more!
 Pokefinder also gives you a little look of the Pokemon next to the name for easy identification, catch chance information and more!
 

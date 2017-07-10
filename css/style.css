@@ -14,6 +14,10 @@ button {
     border-radius: 12px;
 }
 
+btn-primary {
+  background-color: #01b213;
+}
+
 button:hover {
     background-color: #01700c;
 }
@@ -66,7 +70,14 @@ li a:hover {
     left:0px;
     right:0px;
     bottom:0px;
-    overflow-y:scroll;        
+    overflow-y:scroll;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
 }
 
 footer {
@@ -77,4 +88,48 @@ footer {
 .nmode {
     background-color: black;
     color: white;
+}
+
+input#lightswitch:checked + .main {
+  background: #000d1a;
+  color: white;
+}
+
+input#lightswitch:checked + button {
+    background-color: #696969;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+input#lightswitch:checked + button:hover {
+    background-color: #DCDCDC;
+}
+
+input#lightswitch:checked + ul {
+    background-color: #696969;
+    color: white;
+}
+
+input#lightswitch:checked + li a {
+    color: white;
+}
+
+/* Change the link color on hover */
+input#lightswitch:checked + li a:hover {
+      background-color: #DCDCDC;
+      color: white;
+}
+
+input#lightswitch:checked + footer {
+   background-color: #696969;
+}
+
+input#lightswitch:checked + a {
+   color: #008B8B;
 }

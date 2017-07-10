@@ -22,6 +22,7 @@
   <!-- end -->
 </head>
 <body>
+  <div class="main">
     <ul>
       <li><a href="#route1">Route 1</a></li>
       <li><a href="#route2">Route 2</a></li>
@@ -46,6 +47,8 @@
     <button type="button" onclick='save()'>Save</button>
     <button type="button" onclick='load_()'>Load</button>
     <br /><br />
+ <!--   <label for="lightswitch">Dark mode</label>
+    <input type="checkbox" id="lightswitch" /> -->
     <form action="night.html">
       <button class="nmode" type="submit">Night mode</button>
     </form>
@@ -415,18 +418,20 @@
       <br />
     </div>
   </div>
-  <p class="padding"><a href="#route1">Go back to the top</a>.</p>
+  <a class="back-to-top btn btn-primary" href="#">Back to the top</a>
   <p class="padding">Want to count your shiny chains? <a href="https://chain-counter.github.io">Chain Couter</a> is a online service that allows you to easily count your chains, and gives you live time shiny chances, HA chances and more!</p>
   <p class="padding"><a href="contributions.html" target="_blank">View contributions</a> to Pokesprite</a>.</p>
+  </div>
   <script type="text/javascript">
     PkSpr.process_dom();
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/save.js" type="text/javascript"></script>
   <script src="js/checkbox.js" type="text/javascript"></script>
+  <script src="js/main.js" type="text/javascript"></script>
   <footer>
   <br />
-<p class="padding">By <a href="giacomolaw.me" target="_blank">Giacomo Lawrance</a> and other <a href="github.com/giacomolaw/pokefinder" target="_blank">Pokefinder contributors</p>.
+<p class="padding">By <a href="http://giacomolaw.me" target="_blank">Giacomo Lawrance</a> and other <a href="https://github.com/giacomolaw/pokefinder/graphs/contributors" target="_blank">Pokefinder contributors</p>.
   </footer>
 </body>
 </html>
