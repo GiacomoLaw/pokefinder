@@ -25,9 +25,7 @@ button:hover {
 }
 
 .ally {
-    margin-left: auto+10px;
-    margin-right: auto;
-    width: 400px;
+    color: orange;
 }
 
 .padding-plus {
