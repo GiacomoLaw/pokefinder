@@ -44,378 +44,315 @@
     </ul>
   <div class="center padding">
     <br>
-    <button type="button" onclick='save()'>Save</button>
-    <button type="button" onclick='load_()'>Load</button>
     <br /><br />
     <form action="index.html">
       <button class="dmode" type="submit">Day mode</button>
     </form>
     <br><br>
     <p><b>AMB</b> means ambush encounter, and <b>IS</b> means Island Scan. <b>Ally Pokemon</b> that are different to the original caller are highlighted in orange, and are below the caller.</p>
-    <div id="route1">
-      <h3><a href="#route1">Route 1</a></h3>
-        <h4>Proper</h4>
-          <input type="checkbox" value="caterpie" /><span class="pkspr pkmn-caterpie"></span> Caterpie - 30%<br />
-          <input type="checkbox" value="rattata" /><span class="pkspr pkmn-rattata form-alola"></span> Rattata - 30% (N)<br />
-          <input type="checkbox" value="ledyba" /><span class="pkspr pkmn-ledyba"></span> Ledyba - 20% (D)<br />
-          <input type="checkbox" value="spinarak" /><span class="pkspr pkmn-spinarak"></span> Spinarak - 20% (N)<br />
-          <input type="checkbox" value="pikipek" /><span class="pkspr pkmn-pikipek"></span> pikipek - 30%<br /> 
-          <input type="checkbox" value="yungoos" /><span class="pkspr pkmn-yungoos"></span> Yungoos - 30% (D)<br />
-          <input type="checkbox" value="metapod" /><span class="pkspr pkmn-metapod"></span> Metapod - 10%<br />
-          <input type="checkbox" value="pichu" /><span class="pkspr pkmn-pichu"></span> Pichu - 5%<br />
-          <div class="ally">
-            <input type="checkbox" value="pikachu" /><span class="pkspr pkmn-pikachu"></span> Pikachu - Ally ^<br />
-            <input type="checkbox" value="happiny" /><span class="pkspr pkmn-happiny"></span> Happiny - Ally ^^<br />
-          </div>
-          <input type="checkbox" value="grubbin" /><span class="pkspr pkmn-grubbin"></span> Grubbin - 10%<br />
-          <input type="checkbox" value="bonsly" /><span class="pkspr pkmn-bonsly"></span> Bonsly - 15%<br />
-          <div class="ally">
-            <input type="checkbox" value="sudowoodo" /><span class="pkspr pkmn-sudowoodo"></span> Sudowoodo - Ally ^<br />
-            <input type="checkbox" value="happiny" /><span class="pkspr pkmn-happiny"></span> Happiny - Ally ^^<br />
-          </div>
-          <input type="checkbox" value="munchlax" /><span class="pkspr pkmn-munchlax"></span> Munchlax - 5%<br />
-          <div class="ally">
-            <input type="checkbox" value="snorlax" /><span class="pkspr pkmn-snorlax"></span> Snorlax - Ally ^<br />
-            <input type="checkbox" value="happiny" /><span class="pkspr pkmn-happiny"></span> Happiny - Ally ^^<br />
-          </div>
-          <br />
-        <h4>Hau'oli Outskirts</h4>
-          <h5>Beachfront</h5>
-            <input type="checkbox" value="rattata" /><span class="pkspr pkmn-rattata form-alola"></span> Rattata - 30% (N)<br />
-            <input type="checkbox" value="slowpoke" /><span class="pkspr pkmn-slowpoke"></span> Slowpoke - 20%<br />
-            <input type="checkbox" value="wingull" /><span class="pkspr pkmn-wingull"></span> Wingull - 50%<br />
-            <input type="checkbox" value="yungoos" /><span class="pkspr pkmn-yungoos"></span> Yungoos - 30% (D)<br /><br />
-          <h6>Surfing</h6>
-            <input type="checkbox" value="tentacool" /><span class="pkspr pkmn-tentacool"></span> Tentacool - 40%<br />
-            <input type="checkbox" value="wingull" /><span class="pkspr pkmn-wingull"></span> Wingull - 20%<br />
-            <input type="checkbox" value="finneon" /><span class="pkspr pkmn-finneon"></span> Finneon - 40%<br /><br />
-        <h4>Trainers' School</h4>
-          <input type="checkbox" value="meowth" /><span class="pkspr pkmn-meowth form-alola"></span> Meowth - 30%<br />
-          <input type="checkbox" value="magnemite" /><span class="pkspr pkmn-magnemite"></span> Magnemite - 50%<br />
-          <input type="checkbox" value="grimer" /><span class="pkspr pkmn-grimer form-alola"></span> Grimer - 20%<br />
-      <br />
-    </div>
-    <div id="route2">
-      <h3><a href="#route2">Route 2</a></h3>
-        <input type="checkbox" value="rattata" /><span class="pkspr pkmn-rattata form-alola"></span> Rattata - 10% (N)<br />
-        <input type="checkbox" value="meowth" /><span class="pkspr pkmn-meowth form-alola"></span> Meowth - 30%<br />
-        <input type="checkbox" value="abra" /><span class="pkspr pkmn-abra"></span> Abra - 20%<br />
-        <input type="checkbox" value="drowzee" /><span class="pkspr pkmn-drowzee"></span> Drowzee - 20%<br />
-        <input type="checkbox" value="smeargle" /><span class="pkspr pkmn-smeargle"></span> Smeargle - 20%<br />
-        <input type="checkbox" value="yungoos" /><span class="pkspr pkmn-yungoos"></span> Yungoos - 10% (D)<br />
-        <input type="checkbox" value="spearow" /><span class="pkspr pkmn-spearow"></span> Spearow - 40%<br />
-        <input type="checkbox" value="growlithe" /><span class="pkspr pkmn-growlithe"></span> Growlithe - 20%<br />
-        <input type="checkbox" value="cutiefly" /><span class="pkspr pkmn-cutiefly"></span> Cutiefly - 20%<br />
-        <input type="checkbox" value="makuhita" /><span class="pkspr pkmn-makuhita"></span> Makuhita - 30%<br />
-        <input type="checkbox" value="crabrawler" /><span class="pkspr pkmn-crabrawler"></span> Crabrawler - 100% (Berry tree)<br />
-        <input type="checkbox" value="chikorita" /><span class="pkspr pkmn-chikorita"></span> Chikorita - One (IS)<br />
-      <br />
-    </div>
-    <div id="route3">
-      <h3><a href="#route3">Route 3</a></h3>
-        <input type="checkbox" value="rattata" /><span class="pkspr pkmn-rattata form-alola"></span> Rattata - 10% (N)<br />
-        <input type="checkbox" value="spearow" /><span class="pkspr pkmn-spearow"></span> Spearow - 40%<br />
-        <input type="checkbox" value="mankey" /><span class="pkspr pkmn-mankey"></span> Mankey - 20%<br />
-        <input type="checkbox" value="delibird" /><span class="pkspr pkmn-delibird"></span> Delibird - 10%<br />
-        <input type="checkbox" value="yungoos" /><span class="pkspr pkmn-yungoos"></span> Yungoos - 10% (D)<br />
-        <input type="checkbox" value="cutiefly" /><span class="pkspr pkmn-cutiefly"></span> Cutiefly - 20%<br />
-        <input type="checkbox" value="bagon" /><span class="pkspr pkmn-bagon"></span> Bagon - 1%<br />
-          <div class="ally">
-            <input type="checkbox" value="salamence" /><span class="pkspr pkmn-salamence"></span> Salamence - Ally ^<br />
-          </div>
-        <input type="checkbox" value="crabrawler" /><span class="pkspr pkmn-crabrawler"></span> Crabwraler - 100% (Berry tree)<br />
-        <input type="checkbox" value="cyndaquil" /><span class="pkspr pkmn-cyndaquil"></span> Cyndaquil - One (IS)<br /><br />
-        <h5>Ambush encounters</h5>
-        <input type="checkbox" value="rufflet" /><span class="pkspr pkmn-rufflet"></span> Rufflet - 30% (Sun)<br />
-        <input type="checkbox" value="vullaby" /><span class="pkspr pkmn-vullaby"></span> Vullaby - 30% (Moon)<br />
-      <br />
-    </div>
-    <div id="route4">
-      <h3><a href="#route4">Route 4</a></h3>
-        <input type="checkbox" value="rattata" /><span class="pkspr pkmn-rattata form-alola"></span> Rattata - 10% (N)<br />
-        <input type="checkbox" value="eevee" /><span class="pkspr pkmn-eevee"></span> Eevee - 5%<br />
-          <div class="ally">
-            <input type="checkbox" value="espeon" /><span class="pkspr pkmn-espeon"></span> Espeon - Ally ^ (D)<br />
-            <input type="checkbox" value="umbreon" /><span class="pkspr pkmn-umbreon"></span> Umbreon - Ally ^^ (N)<br />
-          </div>
-        <input type="checkbox" value="igglybuff" /><span class="pkspr pkmn-igglybuff"></span> Igglybuff - 10% (D)<br />
-          <div class="ally">
-            <input type="checkbox" value="jigglypuff" /><span class="pkspr pkmn-jigglypuff"></span> Jigglypuff - Ally ^<br />
-            <input type="checkbox" value="happiny" /><span class="pkspr pkmn-happiny"></span> Happiny - Ally ^^<br />
-          </div>
-        <input type="checkbox" value="lillipup" /><span class="pkspr pkmn-lillipup"></span> Lillipup - 30%<br />
-        <input type="checkbox" value="pikipek" /><span class="pkspr pkmn-pikipek"></span> pikipek - 25%<br />
-        <input type="checkbox" value="yungoos" /><span class="pkspr pkmn-yungoos"></span> Yungoos - 10% (D)<br />
-        <input type="checkbox" value="grubbin" /><span class="pkspr pkmn-grubbin"></span> Grubbin - 10%<br />
-        <input type="checkbox" value="mudbray" /><span class="pkspr pkmn-mudbray"></span> Mudbray - 20%<br />
-        <input type="checkbox" value="venipede" /><span class="pkspr pkmn-venipede"></span> Venipede - One (IS)<br />
-      <br />
-    </div>
-    <div id="route5">
-      <h3><a href="#route5">Route 5</a></h3>
-        <h4>Southern half</h4>
-          <input type="checkbox" value="caterpie" /><span class="pkspr pkmn-caterpie"></span> Caterpie - 10%<br />
-          <div class="ally">
-            <input type="checkbox" value="butterfree" /><span class="pkspr pkmn-butterfree"></span> Butterfree - Ally ^<br />
-          </div>
-          <input type="checkbox" value="metapod" /><span class="pkspr pkmn-metapod"></span> Metapod - 9%<br />
-          <div class="ally">
-            <input type="checkbox" value="butterfree" /><span class="pkspr pkmn-butterfree"></span> Butterfree - Ally ^<br />
-          </div>
-          <input type="checkbox" value="butterfree" /><span class="pkspr pkmn-butterfree"></span> Butterfree - 1%<br />
-          <input type="checkbox" value="lillipup" /><span class="pkspr pkmn-lillipup"></span> Lilipup - 30%<br />
-          <input type="checkbox" value="pikipek" /><span class="pkspr pkmn-pikipek"></span> pikipek - 20%<br />
-          <input type="checkbox" value="grubbin" /><span class="pkspr pkmn-grubbin"></span> Grubbin - 10%<br />
-          <input type="checkbox" value="fomantis" /><span class="pkspr pkmn-fomantis"></span> Fomantis - 20%<br /><br />
-        <h4>Northern half</h4>
-          <input type="checkbox" value="caterpie" /><span class="pkspr pkmn-caterpie"></span> Caterpie - 15%<br />
-          <input type="checkbox" value="metapod" /><span class="pkspr pkmn-metapod"></span> Metapod - 10%<br />
-          <input type="checkbox" value="butterfree" /><span class="pkspr pkmn-butterfree"></span> Butterfree - 5%<br />
-          <input type="checkbox" value="bonsly" /><span class="pkspr pkmn-bonsly"></span> Bonsly - 10%<br />
-          <input type="checkbox" value="trumbeak" /><span class="pkspr pkmn-trumbeak"></span> Trumbeak - 20%<br />
-          <input type="checkbox" value="grubbin" /><span class="pkspr pkmn-grubbin"></span> Grubbin - 10%<br />
-          <input type="checkbox" value="fomantis" /><span class="pkspr pkmn-fomantis"></span> Fomantis - 30%<br />
-          <input type="checkbox" value="diglett" /><span class="pkspr pkmn-diglett form-alola"></span> Diglett - 100% (AMB)<br />
-          <input type="checkbox" value="bellsprout" /><span class="pkspr pkmn-bellsprout"></span> Bellsprout - One (IS)<br />
-      <br />
-    </div>
-    <div id="route6">
-      <h3><a href="#route6">Route 6</a></h3>
-        <input type="checkbox" value="rattata" /><span class="pkspr pkmn-rattata form-alola"></span> Rattata - 10% (N)<br />
-        <input type="checkbox" value="eevee" /><span class="pkspr pkmn-eevee"></span> Eevee - 5%<br />
-          <div class="ally">
-            <input type="checkbox" value="espeon" /><span class="pkspr pkmn-espeon"></span> Espeon - Ally ^ (D)<br />
-            <input type="checkbox" value="umbreon" /><span class="pkspr pkmn-umbreon"></span> Umbreon - Ally ^^ (N)<br />
-          </div>
-        <input type="checkbox" value="igglybuff" /><span class="pkspr pkmn-igglybuff"></span> Igglybuff - 10%<br />
-          <div class="ally">
-            <input type="checkbox" value="jigglypuff" /><span class="pkspr pkmn-jigglypuff"></span> Jigglypuff - Ally ^<br />
-            <input type="checkbox" value="happiny" /><span class="pkspr pkmn-happiny"></span> Happiny - Ally ^^<br />
-          </div>
-        <input type="checkbox" value="lillipup" /><span class="pkspr pkmn-lillipup"></span> Lillipup - 30%<br />
-        <input type="checkbox" value="pikipek" /><span class="pkspr pkmn-pikipek"></span> pikipek - 25%<br />
-        <input type="checkbox" value="yungoos" /><span class="pkspr pkmn-yungoos"></span> Yungoos - 10% (D)<br />
-        <input type="checkbox" value="grubbin" /><span class="pkspr pkmn-grubbin"></span> Grubbin - 10%<br />
-        <input type="checkbox" value="mudbray" /><span class="pkspr pkmn-mudbray"></span> Mudbray - 20%<br />
-        <input type="checkbox" value="oricorio" /><span class="pkspr pkmn-oricorio form-pa-u"></span> Oricorio - 20%<br />
-        <input type="checkbox" value="gothita" /><span class="pkspr pkmn-gothita"></span> Gothita - One (IS)<br />
-      <br />
-    </div>
-    <div id="route7">
-      <h3><a href="#route7">Route 7</a></h3>
-        <input type="checkbox" value="diglett" /><span class="pkspr pkmn-diglett form-alola"></span> Diglett - 100% (AMB)<br /><br />
-        <h5>Surfing</h5>
-          <input type="checkbox" value="tentacool" /><span class="pkspr pkmn-tentacool"></span> Tentacool - 30%<br />
-          <input type="checkbox" value="wingull" /><span class="pkspr pkmn-wingull"></span> Wingull - 20%<br />
-          <input type="checkbox" value="finneon" /><span class="pkspr pkmn-finneon"></span> Finneon - 30%<br />
-          <input type="checkbox" value="pyukumuku" /><span class="pkspr pkmn-pyukumuku"></span> Pyukumuku - 20%<br />
-          <input type="checkbox" value="spheal" /><span class="pkspr pkmn-spheal"></span> Spheal - One (IS)<br /><br />
-        <h5>Fishing</h5>
-          <input type="checkbox" value="staryu" /><span class="pkspr pkmn-staryu"></span> Staryu - 1%, 20% @ bubble spot<br />
-	          <input type="checkbox" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 79%, 60% @ bubble spot<br />
-	          <div class="ally">
-	            <input type="checkbox" value="gyarados" /><span class="pkspr pkmn-gyarados"></span> Gyarados - Ally ^<br />
-	          </div>
-          <input type="checkbox" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 20%<br />
-      <br />
-    </div>
-    <div id="route8">
-      <h3><a href="#route8">Route 8</a></h3>
-          <input type="checkbox" value="rattata" /><span class="pkspr pkmn-rattata form-alola"></span> Ratata - 30% (N)<br />
-          <input type="checkbox" value="fletchinder" /><span class="pkspr pkmn-fletchinder"></span> Fletchinder - 15%<br />
-          <input type="checkbox" value="trumbeak" /><span class="pkspr pkmn-trumbeak"></span> Trumbeak - 30%<br />
-          <input type="checkbox" value="yungoos" /><span class="pkspr pkmn-yungoos"></span> Yungoos - 30% (D)<br />
-          <input type="checkbox" value="salandit" /><span class="pkspr pkmn-salandit"></span> Salandit - 20%<br />
-          <input type="checkbox" value="stufful" /><span class="pkspr pkmn-stufful"></span> Stufful - 20%<br />
-          <input type="checkbox" value="crabrawler" /><span class="pkspr pkmn-crabrawler"></span> Crabrawler - 100% @ Berry Tree<br />
-          <input type="checkbox" value="wimpod" /><span class="pkspr pkmn-wimpod"></span> Wimpod - 100% (AMB)<br /><br />
-          <input type="checkbox" value="luxio" /><span class="pkspr pkmn-luxio"></span> Luxio - One (IS)<br /><br />
-        <h5>Surfing</h5>
-          <input type="checkbox" value="tentacool" /><span class="pkspr pkmn-tentacool"></span> Tentacool - 40%<br />
-          <input type="checkbox" value="wingull" /><span class="pkspr pkmn-wingull"></span> Wingull - 20%<br />
-          <input type="checkbox" value="finneon" /><span class="pkspr pkmn-finneon"></span> Finneon - 40%<br /><br />
-         <h5>Fishing</h5>
-          <input type="checkbox" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 79%, 60% @ fishing spot<br />
-          <div class="ally">
-            <input type="checkbox" value="gyarados" /><span class="pkspr pkmn-gyarados"></span> Gyarados - Ally ^<br />
-          </div>
-          <input type="checkbox" value="chinchou" /><span class="pkspr pkmn-chinchou"></span> Chinchou - 1%, 20% @ fishing spot<br />
-          <input type="checkbox" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 20%, 20% @ fishing spot<br />
-          
-      <br />
-    </div>
-    <div id="route9">
-      <h3><a href="#route9">Route 9</a></h3>
-        <h5>Fishing</h5>
-          <input type="checkbox" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 15%<br />
-          <div class="ally">
-            <input type="checkbox" value="gyarados" /><span class="pkspr pkmn-gyarados"></span> Gyarados - Ally ^<br />
-          </div>
-          <input type="checkbox" value="corsola" /><span class="pkspr pkmn-corsola"></span> Corsola - 5%<br />
-          <div class="ally">
-            <input type="checkbox" value="mareanie" /><span class="pkspr pkmn-mareanie"></span> Mareanie - Ally ^<br />
-          </div>
-          <input type="checkbox" value="luvdisc" /><span class="pkspr pkmn-luvdisc"></span> Luvdisc - 70%<br />
-          <input type="checkbox" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 10%<br />
+    <div class="route" id="route1">
+        <h3><a href="#route1">Route 1</a></h3>
+          <h4>Proper</h4>
+            <input type="checkbox" store="checkboxcaterpie" value="caterpie" /><span class="pkspr pkmn-caterpie"></span> Caterpie - 30%<br />
+            <input type="checkbox" store="checkboxrattata" value="rattata" /><span class="pkspr pkmn-rattata form-alola"></span> Rattata - 30% (N)<br />
+            <input type="checkbox" store="checkboxledyba" value="ledyba" /><span class="pkspr pkmn-ledyba"></span> Ledyba - 20% (D)<br />
+            <input type="checkbox" store="checkboxspinarak"  value="spinarak" /><span class="pkspr pkmn-spinarak"></span> Spinarak - 20% (N)<br />
+            <input type="checkbox" store="checkboxpikipek"  value="pikipek" /><span class="pkspr pkmn-pikipek"></span> pikipek - 30%<br />
+            <input type="checkbox" store="checkboxyungoos" value="yungoos" /><span class="pkspr pkmn-yungoos"></span> Yungoos - 30% (D)<br />
+            <input type="checkbox" store="checkboxmetapod" value="metapod" /><span class="pkspr pkmn-metapod"></span> Metapod - 10%<br />
+            <input type="checkbox" store="checkboxpichu" value="pichu" /><span class="pkspr pkmn-pichu"></span> Pichu - 5%<br />
+            <input type="checkbox" store="checkboxgrubbin" value="grubbin" /><span class="pkspr pkmn-grubbin"></span> Grubbin - 10%<br />
+            <input type="checkbox" store="checkboxbonsly" value="bonsly" /><span class="pkspr pkmn-bonsly"></span> Bonsly - 15%<br />
+            <input type="checkbox" store="checkboxmunchlax" value="munchlax" /><span class="pkspr pkmn-munchlax"></span> Munchlax - 5%<br /><br />
+          <h4>Hau'oli Outskirts</h4>
+            <h5>Beachfront</h5>
+              <input type="checkbox" store="checkboxrattata" value="rattata" /><span class="pkspr pkmn-rattata form-alola"></span> Rattata - 30% (N)<br />
+              <input type="checkbox" store="checkboxslowpoke" value="slowpoke" /><span class="pkspr pkmn-slowpoke"></span> Slowpoke - 20%<br />
+              <input type="checkbox" store="checkboxwingull" value="wingull" /><span class="pkspr pkmn-wingull"></span> Wingull - 50%<br />
+              <input type="checkbox" store="checkboxyungoos" value="yungoos" /><span class="pkspr pkmn-yungoos"></span> Yungoos - 30% (D)<br /><br />
+            <h6>Surfing</h6>
+              <input type="checkbox" store="checkboxtentacool" value="tentacool" /><span class="pkspr pkmn-tentacool"></span> Tentacool - 40%<br />
+              <input type="checkbox" store="checkboxwingull" value="wingull" /><span class="pkspr pkmn-wingull"></span> Wingull - 20%<br />
+              <input type="checkbox" store="checkboxfinneon" value="finneon" /><span class="pkspr pkmn-finneon"></span> Finneon - 40%<br /><br />
+          <h4>Trainers' School</h4>
+            <input type="checkbox" store="checkboxmeowth" value="meowth" /><span class="pkspr pkmn-meowth form-alola"></span> Meowth - 30%<br />
+            <input type="checkbox" store="checkboxmagnemite" value="magnemite" /><span class="pkspr pkmn-magnemite"></span> Magnemite - 50%<br />
+            <input type="checkbox" store="checkboxgrimer" value="grimer" /><span class="pkspr pkmn-grimer form-alola"></span> Grimer - 20%<br />
+        <br />
+      </div>
+      <div class="route" id="route2">
+        <h3><a href="#route2">Route 2</a></h3>
+          <input type="checkbox" store="checkboxrattata" value="rattata" /><span class="pkspr pkmn-rattata form-alola"></span> Rattata - 10% (N)<br />
+          <input type="checkbox" store="checkboxmeowth" value="meowth" /><span class="pkspr pkmn-meowth form-alola"></span> Meowth - 30%<br />
+          <input type="checkbox" store="checkboxabra" value="abra" /><span class="pkspr pkmn-abra"></span> Abra - 20%<br />
+          <input type="checkbox" store="checkboxdrowzee" value="drowzee" /><span class="pkspr pkmn-drowzee"></span> Drowzee - 20%<br />
+          <input type="checkbox" store="checkboxsmeargle" value="smeargle" /><span class="pkspr pkmn-smeargle"></span> Smeargle - 20%<br />
+          <input type="checkbox" store="checkboxyungoos" value="yungoos" /><span class="pkspr pkmn-yungoos"></span> Yungoos - 10% (D)<br />
+          <input type="checkbox" store="checkboxspearow" value="spearow" /><span class="pkspr pkmn-spearow"></span> Spearow - 40%<br />
+          <input type="checkbox" store="checkboxgrowlithe" value="growlithe" /><span class="pkspr pkmn-growlithe"></span> Growlithe - 20%<br />
+          <input type="checkbox" store="checkboxcutiefly" value="cutiefly" /><span class="pkspr pkmn-cutiefly"></span> Cutiefly - 20%<br />
+          <input type="checkbox" store="checkboxmakuhita" value="makuhita" /><span class="pkspr pkmn-makuhita"></span> Makuhita - 30%<br />
+          <input type="checkbox" store="checkboxcrabrawler" value="crabrawler" /><span class="pkspr pkmn-crabrawler"></span> Crabrawler - 100% (Berry tree)<br />
+          <input type="checkbox" store="checkboxchikorita" value="chikorita" /><span class="pkspr pkmn-chikorita"></span> Chikorita - One (IS)<br />
+        <br />
+      </div>
+      <div class="route" id="route3">
+        <h3><a href="#route3">Route 3</a></h3>
+          <input type="checkbox" store="checkboxrattata" value="rattata" /><span class="pkspr pkmn-rattata form-alola"></span> Rattata - 10% (N)<br />
+          <input type="checkbox" store="checkboxspearow" value="spearow" /><span class="pkspr pkmn-spearow"></span> Spearow - 40%<br />
+          <input type="checkbox" store="checkboxmankey" value="mankey" /><span class="pkspr pkmn-mankey"></span> Mankey - 20%<br />
+          <input type="checkbox" store="checkboxdelibird" value="delibird" /><span class="pkspr pkmn-delibird"></span> Delibird - 10%<br />
+          <input type="checkbox" store="checkboxyungoos" value="yungoos" /><span class="pkspr pkmn-yungoos"></span> Yungoos - 10% (D)<br />
+          <input type="checkbox" store="checkboxcutiefly" value="cutiefly" /><span class="pkspr pkmn-cutiefly"></span> Cutiefly - 20%<br />
+          <input type="checkbox" store="checkboxbagon" value="bagon" /><span class="pkspr pkmn-bagon"></span> Bagon - 1%<br />
+          <input type="checkbox" store="checkboxrufflet" value="rufflet" /><span class="pkspr pkmn-rufflet"></span> Rufflet - 30% (AMB)(Sun)<br />
+          <input type="checkbox" store="checkboxvullaby" value="vullaby" /><span class="pkspr pkmn-vullaby"></span> Vullaby - 30% (AMB)(Moon)<br />
+          <input type="checkbox" store="checkboxcrabrawler" value="crabrawler" /><span class="pkspr pkmn-crabrawler"></span> Crabwraler - 100% (Berry tree)<br />
+          <input type="checkbox" store="checkboxcyndaquil" value="cyndaquil" /><span class="pkspr pkmn-cyndaquil"></span> Cyndaquil - One (IS)<br />
+        <br />
+      </div>
+      <div class="route" id="route4">
+        <h3><a href="#route4">Route 4</a></h3>
+          <input type="checkbox" store="checkboxrattata" value="rattata" /><span class="pkspr pkmn-rattata form-alola"></span> Rattata - 10% (N)<br />
+          <input type="checkbox" store="checkboxeevee" value="eevee" /><span class="pkspr pkmn-eevee"></span> Eevee - 5%<br />
+          <input type="checkbox" store="checkboxigglybuff" value="igglybuff" /><span class="pkspr pkmn-igglybuff"></span> Igglybuff - 10% (D)<br />
+          <input type="checkbox" store="checkboxlillipup" value="lillipup" /><span class="pkspr pkmn-lillipup"></span> Lillipup - 30%<br />
+          <input type="checkbox" store="checkboxpikipek" value="pikipek" /><span class="pkspr pkmn-pikipek"></span> pikipek - 25%<br />
+          <input type="checkbox" store="checkboxyungoos" value="yungoos" /><span class="pkspr pkmn-yungoos"></span> Yungoos - 10% (D)<br />
+          <input type="checkbox" store="checkboxgrubbin" value="grubbin" /><span class="pkspr pkmn-grubbin"></span> Grubbin - 10%<br />
+          <input type="checkbox" store="checkboxmudbray" value="mudbray" /><span class="pkspr pkmn-mudbray"></span> Mudbray - 20%<br />
+          <input type="checkbox" store="checkboxvenipede" value="venipede" /><span class="pkspr pkmn-venipede"></span> Venipede - One (IS)<br />
+        <br />
+      </div>
+      <div class="route" id="route5">
+        <h3><a href="#route5">Route 5</a></h3>
+          <h4>Southern half</h4>
+            <input type="checkbox" store="checkboxcaterpie" value="caterpie" /><span class="pkspr pkmn-caterpie"></span> Caterpie - 10%<br />
+            <input type="checkbox" store="checkboxmetapod" value="metapod" /><span class="pkspr pkmn-metapod"></span> Metapod - 9%<br />
+            <input type="checkbox" store="checkboxbutterfree" value="butterfree" /><span class="pkspr pkmn-butterfree"></span> Butterfree - 1%<br />
+            <input type="checkbox" store="checkboxlillipup" value="lillipup" /><span class="pkspr pkmn-lillipup"></span> Lilipup - 30%<br />
+            <input type="checkbox" store="checkboxpikipek" value="pikipek" /><span class="pkspr pkmn-pikipek"></span> pikipek - 20%<br />
+            <input type="checkbox" store="checkboxgrubbin" value="grubbin" /><span class="pkspr pkmn-grubbin"></span> Grubbin - 10%<br />
+            <input type="checkbox" store="checkboxfomantis" value="fomantis" /><span class="pkspr pkmn-fomantis"></span> Fomantis - 20%<br /><br />
+          <h4>Northern half</h4>
+            <input type="checkbox" store="checkboxcaterpie" value="caterpie" /><span class="pkspr pkmn-caterpie"></span> Caterpie - 15%<br />
+            <input type="checkbox" store="checkboxmetapod" value="metapod" /><span class="pkspr pkmn-metapod"></span> Metapod - 10%<br />
+            <input type="checkbox" store="checkboxbutterfree" value="butterfree" /><span class="pkspr pkmn-butterfree"></span> Butterfree - 5%<br />
+            <input type="checkbox" store="checkboxbonsly" value="bonsly" /><span class="pkspr pkmn-bonsly"></span> Bonsly - 10%<br />
+            <input type="checkbox" store="checkboxtrumbeak" value="trumbeak" /><span class="pkspr pkmn-trumbeak"></span> Trumbeak - 20%<br />
+            <input type="checkbox" store="checkboxgrubbin" value="grubbin" /><span class="pkspr pkmn-grubbin"></span> Grubbin - 10%<br />
+            <input type="checkbox" store="checkboxfomantis" value="fomantis" /><span class="pkspr pkmn-fomantis"></span> Fomantis - 30%<br />
+            <input type="checkbox" store="checkboxdiglett" value="diglett" /><span class="pkspr pkmn-diglett form-alola"></span> Diglett - 100% (AMB)<br />
+            <input type="checkbox" store="checkboxbellsprout" value="bellsprout" /><span class="pkspr pkmn-bellsprout"></span> Bellsprout - One (IS)<br />
+        <br />
+      </div>
+      <div class="route" id="route6">
+        <h3><a href="#route6">Route 6</a></h3>
+          <input type="checkbox" store="checkboxrattata" value="rattata" /><span class="pkspr pkmn-rattata form-alola"></span> Rattata - 10% (N)<br />
+          <input type="checkbox" store="checkboxeevee" value="eevee" /><span class="pkspr pkmn-eevee"></span> Eevee - 5%<br />
+          <input type="checkbox" store="checkboxigglybuff" value="igglybuff" /><span class="pkspr pkmn-igglybuff"></span> Igglybuff - 10%<br />
+          <input type="checkbox" store="checkboxlillipup" value="lillipup" /><span class="pkspr pkmn-lillipup"></span> Lillipup - 30%<br />
+          <input type="checkbox" store="checkboxpikipek" value="pikipek" /><span class="pkspr pkmn-pikipek"></span> pikipek - 25%<br />
+          <input type="checkbox" store="checkboxyungoos" value="yungoos" /><span class="pkspr pkmn-yungoos"></span> Yungoos - 10% (D)<br />
+          <input type="checkbox" store="checkboxgrubbin" value="grubbin" /><span class="pkspr pkmn-grubbin"></span> Grubbin - 10%<br />
+          <input type="checkbox" store="checkboxmudbray" value="mudbray" /><span class="pkspr pkmn-mudbray"></span> Mudbray - 20%<br />
+          <input type="checkbox" store="checkboxoricorio" value="oricorio" /><span class="pkspr pkmn-oricorio form-pa-u"></span> Oricorio - 20%<br />
+          <input type="checkbox" store="checkboxgothita" value="gothita" /><span class="pkspr pkmn-gothita"></span> Gothita - One (IS)<br />
+        <br />
+      </div>
+      <div class="route" id="route7">
+        <h3><a href="#route7">Route 7</a></h3>
+          <input type="checkbox" store="checkboxdiglett" value="diglett" /><span class="pkspr pkmn-diglett form-alola"></span> Diglett - 100% (AMB)<br /><br />
+          <h5>Surfing</h5>
+            <input type="checkbox" store="checkboxtentacool" value="tentacool" /><span class="pkspr pkmn-tentacool"></span> Tentacool - 30%<br />
+            <input type="checkbox" store="checkboxwingull" value="wingull" /><span class="pkspr pkmn-wingull"></span> Wingull - 20%<br />
+            <input type="checkbox" store="checkboxfinneon" value="finneon" /><span class="pkspr pkmn-finneon"></span> Finneon - 30%<br />
+            <input type="checkbox" store="checkboxpyukumuku" value="pyukumuku" /><span class="pkspr pkmn-pyukumuku"></span> Pyukumuku - 20%<br />
+            <input type="checkbox" store="checkboxspheal" value="spheal" /><span class="pkspr pkmn-spheal"></span> Spheal - One (IS)<br /><br />
+          <h5>Fishing</h5>
+            <input type="checkbox" store="checkboxstaryu" value="staryu" /><span class="pkspr pkmn-staryu"></span> Staryu - 1%, 20% @ bubble spot<br />
+            <input type="checkbox" store="checkboxmagikarp" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 79%, 60% @ bubble spot<br />
+            <input type="checkbox" store="checkboxwishiwashi" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 20%<br />
+        <br />
+      </div>
+      <div class="route" id="route8">
+        <h3><a href="#route8">Route 8</a></h3>
+            <input type="checkbox" store="checkboxrattata" value="rattata" /><span class="pkspr pkmn-rattata form-alola"></span> Ratata - 30% (N)<br />
+            <input type="checkbox" store="checkboxfletchinder" value="fletchinder" /><span class="pkspr pkmn-fletchinder"></span> Fletchinder - 15%<br />
+            <input type="checkbox" store="checkboxtrumbeak" value="trumbeak" /><span class="pkspr pkmn-trumbeak"></span> Trumbeak - 30%<br />
+            <input type="checkbox" store="checkboxyungoos" value="yungoos" /><span class="pkspr pkmn-yungoos"></span> Yungoos - 30% (D)<br />
+            <input type="checkbox" store="checkboxsalandit" value="salandit" /><span class="pkspr pkmn-salandit"></span> Salandit - 20%<br />
+            <input type="checkbox" store="checkboxstufful" value="stufful" /><span class="pkspr pkmn-stufful"></span> Stufful - 20%<br />
+            <input type="checkbox" store="checkboxcrabrawler" value="crabrawler" /><span class="pkspr pkmn-crabrawler"></span> Crabrawler - 100% @ Berry Tree<br />
+            <input type="checkbox" store="checkboxwimpod" value="wimpod" /><span class="pkspr pkmn-wimpod"></span> Wimpod - 100% (AMB)<br /><br />
+            <input type="checkbox" store="checkboxluxio" value="luxio" /><span class="pkspr pkmn-luxio"></span> Luxio - One (IS)<br /><br />
+          <h5>Surfing</h5>
+            <input type="checkbox" store="checkboxtentacool" value="tentacool" /><span class="pkspr pkmn-tentacool"></span> Tentacool - 40%<br />
+            <input type="checkbox" store="checkboxwingull" value="wingull" /><span class="pkspr pkmn-wingull"></span> Wingull - 20%<br />
+            <input type="checkbox" store="checkboxfinneon" value="finneon" /><span class="pkspr pkmn-finneon"></span> Finneon - 40%<br /><br />
+           <h5>Fishing</h5>
+            <input type="checkbox" store="checkboxmagikarp" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 79%, 60% @ fishing spot<br />
+            <input type="checkbox" store="checkboxchinchou" value="chinchou" /><span class="pkspr pkmn-chinchou"></span> Chinchou - 1%, 20% @ fishing spot<br />
+            <input type="checkbox" store="checkboxwishiwashi" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 20%, 20% @ fishing spot<br />
 
-      <br />
-    </div>
-    <div id="route10">
-      <h3><a href="#route10">Route 10</a></h3>
-          <input type="checkbox" value="raticate" /><span class="pkspr pkmn-raticate form-alola"></span> Raticate - 30% (N)<br />
-          <input type="checkbox" value="fearow" /><span class="pkspr pkmn-fearow"></span> Fearow - 30%<br />
-          <input type="checkbox" value="ledian" /><span class="pkspr pkmn-ledian"></span> Ledian - 20% (D)<br />
-          <input type="checkbox" value="ariados" /><span class="pkspr pkmn-ariados"></span> Ariados - 20% (N)<br />
-          <input type="checkbox" value="skarmory" /><span class="pkspr pkmn-skarmory"></span> Skarmory - 10%<br />
-          <input type="checkbox" value="pancham" /><span class="pkspr pkmn-pancham"></span> Pancham - 10%<br />
-          <div class="ally">
-            <input type="checkbox" value="pangoro" /><span class="pkspr pkmn-pangoro"></span> Pangoro - Ally ^<br />
-          </div>
-          <input type="checkbox" value="gumshoos" /><span class="pkspr pkmn-gumshoos"></span> Gumshoos - 10%<br />
-          <input type="checkbox" value="crabrawler" /><span class="pkspr pkmn-crabrawler"></span> Crabrawler - 100% (Berry tree)<br />
-          <input type="checkbox" value="staravia" /><span class="pkspr pkmn-staravia"></span> Staravia - One (IS)<br /><br />
-        <h5>Ambush encounters</h5>
-          <input type="checkbox" value="fearow" /><span class="pkspr pkmn-fearow"></span> Fearow - 80%<br />
-          <input type="checkbox" value="skarmory" /><span class="pkspr pkmn-skarmory"></span> Skarmory - 20%<br />
+        <br />
+      </div>
+      <div class="route" id="route9">
+        <h3><a href="#route9">Route 9</a></h3>
+          <h5>Fishing</h5>
+            <input type="checkbox" store="checkboxmagikarp" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 15%<br />
+            <input type="checkbox" store="checkboxcorsola" value="corsola" /><span class="pkspr pkmn-corsola"></span> Corsola - 5%<br />
+            <input type="checkbox" store="checkboxluvdisc" value="luvdisc" /><span class="pkspr pkmn-luvdisc"></span> Luvdisc - 70%<br />
+            <input type="checkbox" store="checkboxwishiwashi" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 10%<br />
 
-      <br />
+        <br />
+      </div>
+      <div class="route" id="route10">
+        <h3><a href="#route10">Route 10</a></h3>
+            <input type="checkbox" store="checkboxraticate" value="raticate" /><span class="pkspr pkmn-raticate form-alola"></span> Raticate - 30% (N)<br />
+            <input type="checkbox" store="checkboxfearow" value="fearow" /><span class="pkspr pkmn-fearow"></span> Fearow - 30%<br />
+            <input type="checkbox" store="checkboxledian" value="ledian" /><span class="pkspr pkmn-ledian"></span> Ledian - 20% (D)<br />
+            <input type="checkbox" store="checkboxariados" value="ariados" /><span class="pkspr pkmn-ariados"></span> Ariados - 20% (N)<br />
+            <input type="checkbox" store="checkboxskarmory" value="skarmory" /><span class="pkspr pkmn-skarmory"></span> Skarmory - 10%<br />
+            <input type="checkbox" store="checkboxpancham" value="pancham" /><span class="pkspr pkmn-pancham"></span> Pancham - 10%<br />
+            <input type="checkbox" store="checkboxgumshoos" value="gumshoos" /><span class="pkspr pkmn-gumshoos"></span> Gumshoos - 10%<br />
+            <input type="checkbox" store="checkboxcrabrawler" value="crabrawler" /><span class="pkspr pkmn-crabrawler"></span> Crabrawler - 100% (Berry tree)<br />
+            <input type="checkbox" store="checkboxstaravia" value="staravia" /><span class="pkspr pkmn-staravia"></span> Staravia - One (IS)<br /><br />
+          <h5>Ambush encounters</h5>
+            <input type="checkbox" store="checkboxfearow" value="fearow" /><span class="pkspr pkmn-fearow"></span> Fearow - 80%<br />
+            <input type="checkbox" store="checkboxskarmory" value="skarmory" /><span class="pkspr pkmn-skarmory"></span> Skarmory - 20%<br />
+
+        <br />
+      </div>
+      <div class="route" id="route11">
+        <h3><a href="#route11">Route 11</a></h3>
+            <input type="checkbox" store="checkboxraticate" value="raticate" /><span class="pkspr pkmn-raticate form-alola"></span> Raticate - 20% (N)<br />
+            <input type="checkbox" store="checkboxparas" value="paras" /><span class="pkspr pkmn-paras"></span> Paras - 10% (D)<br />
+            <input type="checkbox" store="checkboxledian" value="ledian" /><span class="pkspr pkmn-ledian"></span> Ledian - 20% (D)<br />
+            <input type="checkbox" store="checkboxariados" value="ariados" /><span class="pkspr pkmn-ariados"></span> Ariados - 20% (N)<br />
+            <input type="checkbox" store="checkboxpancham" value="pancham" /><span class="pkspr pkmn-pancham"></span> Pancham - 20%<br />
+            <input type="checkbox" store="checkboxtrumbeak" value="trumbeak" /><span class="pkspr pkmn-trumbeak"></span> Trumbeak - 20% (N)<br />
+            <input type="checkbox" store="checkboxgumshoos" value="gumshoos" /><span class="pkspr pkmn-gumshoos"></span> Gumshoos - 20% (D)<br />
+            <input type="checkbox" store="checkboxmorelull" value="morelull" /><span class="pkspr pkmn-morelull"></span> Morelull - 10% (N)<br />
+            <input type="checkbox" store="checkboxkomala" value="komala" /><span class="pkspr pkmn-komala"></span> Komala - 10%<br />
+            <input type="checkbox" store="checkboxvigoroth" value="vigoroth" /><span class="pkspr pkmn-vigoroth"></span> Vigoroth - One (IS)<br />
+        <br />
+      </div>
+      <div class="route" id="route12">
+        <h3><a href="#route12">Route 12</a></h3>
+          <h5>First ten fields of grass from the north</h5>
+            <input type="checkbox" store="checkboxgeodude" value="geodude" /><class="pkspr pkmn-geodude form-alola"></span> Geodude - 40%<br />
+            <input type="checkbox" store="checkboxelekid" value="elekid" /><span class="pkspr pkmn-elekid"></span> Elekid - 10% <br />
+            <input type="checkbox" store="checkboxtorkoal" value="torkoal" /><span class="pkspr pkmn-torkoal"></span> Torkoal - 20%<br />
+            <input type="checkbox" store="checkboxmudbray" value="mudbray" /><span class="pkspr pkmn-mudbray"></span> Mudbray - 30%<br /><br />
+          <h5>Southernmost field of grass</h5>
+            <input type="checkbox" store="checkboxgeodude" value="geodude" /><span class="pkspr pkmn-geodude form-alola"></span> Geodude - 40%<br />
+            <input type="checkbox" store="checkboxelekid" value="elekid" /><span class="pkspr pkmn-elekid"></span> Elekid - 10%<br />
+            <input type="checkbox" store="checkboxtorkoal" value="torkoal" /><span class="pkspr pkmn-torkoal"></span> Torkoal - 20%<br />
+            <input type="checkbox" store="checkboxmudbray" value="mudbray" /><span class="pkspr pkmn-mudbray"></span> Mudbray - 30%<br />
+        <br />
+      </div>
+      <div class="route" id="route13">
+        <h3><a href="#route13">Route 13</a></h3>
+          <h5>Fishing</h5>
+            <input type="checkbox" store="checkboxmagikarp" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 79%<br />
+            <input type="checkbox" store="checkboxwishiwashi" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 20%<br />
+            <input type="checkbox" store="checkboxbruxish" value="bruxish" /><span class="pkspr pkmn-bruxish"></span> Bruxish - 1%<br /><br />
+          <h5>Fishing at the bubbling spot</h5>
+            <input type="checkbox" store="checkboxmagikarp" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 50%<br />
+            <input type="checkbox" store="checkboxwishiwashi" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 30%<br />
+            <input type="checkbox" store="checkboxbruxish" value="bruxish" /><span class="pkspr pkmn-bruxish"></span> Bruxish - 20%<br />
+        <br />
+      </div>
+      <div class="route" id="route14">
+        <h3><a href="#route14">Route 14</a></h3>
+          <h5>Surfing</h5>
+            <input type="checkbox" store="checkboxtentacool" value="tentacool" /><span class="pkspr pkmn-tentacool"></span> Tentacool - 40%<br />
+            <input type="checkbox" store="checkboxpelipper" value="pelipper" /><span class="pkspr pkmn-pelipper"></span> Pelippper - 20%<br />
+            <input type="checkbox" store="checkboxmudbray" value="mudbray" /><span class="pkspr pkmn-mudbray"></span> Mudbray - 30%<br /><br />
+          <h5>Fishing</h5>
+            <input type="checkbox" store="checkboxmagikarp" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 79%<br />
+            <input type="checkbox" store="checkboxwishiwashi" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 20%<br />
+            <input type="checkbox" store="checkboxbruxish" value="bruxish" /><span class="pkspr pkmn-bruxish"></span> Bruxish - 1%<br /><br />
+          <h5>Fishing at the bubbling spot</h5>
+            <input type="checkbox" store="checkboxmagikarp" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 50%<br />
+            <input type="checkbox" store="checkboxwishiwashi" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 30%<br />
+        <br />
+      </div>
+      <div class="route" id="route15">
+        <h3><a href="#route15">Route 15</a></h3>
+            <input type="checkbox" store="checkboxraticate" value="raticate" /><span class="pkspr pkmn-raticate form-alola"></span> Raticate - 30% (N)<br />
+            <input type="checkbox" store="checkboxslowpoke" value="slowpoke" /><span class="pkspr pkmn-slowpoke"></span> Slowpoke - 20%<br />
+            <input type="checkbox" store="checkboxpelipper" value="pelipper" /><span class="pkspr pkmn-pelipper"></span> Pelipper - 50%<br />
+            <input type="checkbox" store="checkboxgumshoos" value="gumshoos" /><span class="pkspr pkmn-gumshoos"></span> Gumshoos - 30% (D)<br /><br />
+          <h5>Surfing</h5>
+            <input type="checkbox" store="checkboxtentacool" value="tentacool" /><span class="pkspr pkmn-tentacool"></span> Tentacool - 40%<br />
+            <input type="checkbox" store="checkboxpelipper" value="pelipper" /><span class="pkspr pkmn-pelipper"></span> Pelippper - 20%<br />
+            <input type="checkbox" store="checkboxmudbray" value="mudbray" /><span class="pkspr pkmn-mudbray"></span> Mudbray - 30%<br /><br />
+          <h5>Fishing</h5>
+            <input type="checkbox" store="checkboxmagikarp" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 79%<br />
+            <input type="checkbox" store="checkboxwishiwashi" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 20%<br />
+            <input type="checkbox" store="checkboxbruxish" value="bruxish" /><span class="pkspr pkmn-bruxish"></span> Bruxish - 1%<br /><br />
+          <h5>Fishing at the bubbling spot</h5>
+            <input type="checkbox" store="checkboxmagikarp" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 50%<br />
+            <input type="checkbox" store="checkboxwishiwashi" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 30%<br /><br />
+      </div>
+      <div class="route" id="route16">
+        <h3><a href="#route16">Route 16</a></h3>
+            <input type="checkbox" store="checkboxraticate" value="raticate" /><span class="pkspr pkmn-raticate form-alola"></span> Raticate - 30% (N)<br />
+            <input type="checkbox" store="checkboxslowpoke" value="slowpoke" /><span class="pkspr pkmn-slowpoke"></span> Slowpoke - 20%<br />
+            <input type="checkbox" store="checkboxslowpoke" value="pelipper" /><span class="pkspr pkmn-pelipper"></span> Pelipper - 50%<br />
+            <input type="checkbox" store="checkboxslowpoke" value="gumshoos" /><span class="pkspr pkmn-gumshoos"></span> Gumshoos - 30% (D)<br />
+            <input type="checkbox" store="checkboxcrabrawler" value="crabrawler" /><span class="pkspr pkmn-crabrawler"></span> Crabrawler - 100% (Berry tree)<br />
+            <input type="checkbox" store="checkboxduosion" value="duosion" /><span class="pkspr pkmn-duosion"></span> Duosion - One (IS)<br />
+        <br />
+      </div>
+      <div class="route" id="route17">
+        <h3><a href="#route17">Route 17</a></h3>
+            <input type="checkbox" store="checkboxraticate" value="raticate" /><span class="pkspr pkmn-raticate form-alola"></span> Raticate - 30% (N)<br />
+            <input type="checkbox" store="checkboxfearow" value="fearow" /><span class="pkspr pkmn-fearow"></span> Fearow - 30%<br />
+            <input type="checkbox" store="checkboxledian" value="ledian" /><span class="pkspr pkmn-ledian"></span> Ledian - 20% (D)<br />
+            <input type="checkbox" store="checkboxariados" value="ariados" /><span class="pkspr pkmn-ariados"></span> Ariados - 20% (N)<br />
+            <input type="checkbox" store="checkboxpancham" value="pancham" /><span class="pkspr pkmn-pancham"></span> Pancham - 20%<br />
+            <input type="checkbox" store="checkboxgumshoos" value="gumshoos" /><span class="pkspr pkmn-gumshoos"></span> Gumshoos - 30% (D)<br />
+            <input type="checkbox" store="checkboxcrabrawler" value="crabrawler" /><span class="pkspr pkmn-crabrawler"></span> Crabrawler - 100% (Berry tree)<br /><br />
+          <h5>Yellow grass on the mountain</h5>
+            <input type="checkbox" store="checkboxraticate" value="raticate" /><span class="pkspr pkmn-raticate form-alola"></span> Raticate - 30% (N)<br />
+            <input type="checkbox" store="checkboxfearow" value="fearow" /><span class="pkspr pkmn-fearow"></span> Fearow - 30%<br />
+            <input type="checkbox" store="checkboxgraveler" value="graveler" /><span class="pkspr pkmn-graveler form-alola"></span> Graveler - 20%<br />
+            <input type="checkbox" store="checkboxskarmory" value="skarmory" /><span class="pkspr pkmn-skarmory"></span> Skarmory - 10%<br />
+            <input type="checkbox" store="checkboxpancham" value="pancham" /><span class="pkspr pkmn-pancham"></span> Pancham - 10%<br />
+            <input type="checkbox" store="checkboxgumshoos" value="gumshoos" /><span class="pkspr pkmn-gumshoos"></span> Gumshoos - 30% (D)<br />
+        <br />
+      </div>
     </div>
-    <div id="route11">
-      <h3><a href="#route11">Route 11</a></h3>
-          <input type="checkbox" value="raticate" /><span class="pkspr pkmn-raticate form-alola"></span> Raticate - 20% (N)<br />
-          <input type="checkbox" value="paras" /><span class="pkspr pkmn-paras"></span> Paras - 10% (D)<br />
-          <input type="checkbox" value="ledian" /><span class="pkspr pkmn-ledian"></span> Ledian - 20% (D)<br />
-          <input type="checkbox" value="ariados" /><span class="pkspr pkmn-ariados"></span> Ariados - 20% (N)<br />
-          <input type="checkbox" value="pancham" /><span class="pkspr pkmn-pancham"></span> Pancham - 20%<br />
-          <div class="ally">
-            <input type="checkbox" value="pangoro" /><span class="pkspr pkmn-pangoro"></span> Pangoro - Ally ^<br />
-          </div>
-          <input type="checkbox" value="trumbeak" /><span class="pkspr pkmn-trumbeak"></span> Trumbeak - 20% (N)<br />
-          <input type="checkbox" value="gumshoos" /><span class="pkspr pkmn-gumshoos"></span> Gumshoos - 20% (D)<br />
-          <input type="checkbox" value="morelull" /><span class="pkspr pkmn-morelull"></span> Morelull - 10% (N)<br />
-          <input type="checkbox" value="komala" /><span class="pkspr pkmn-komala"></span> Komala - 10%<br />
-          <input type="checkbox" value="vigoroth" /><span class="pkspr pkmn-vigoroth"></span> Vigoroth - One (IS)<br />
-      <br />
-    </div>
-    <div id="route12">
-      <h3><a href="#route12">Route 12</a></h3>
-        <h5>First ten fields of grass from the north</h5>
-          <input type="checkbox" value="geodude" /><class="pkspr pkmn-geodude form-alola"></span> Geodude - 40%<br />
-          <input type="checkbox" value="elekid" /><span class="pkspr pkmn-elekid"></span> Elekid - 10% <br />
-          <div class="ally">
-            <input type="checkbox" value="electabuzz" /><span class="pkspr pkmn-electabuzz"></span> Electabuzz - Ally ^<br />
-            <input type="checkbox" value="chansey" /><span class="pkspr pkmn-chansey"></span> Chansey - Ally ^^<br />
-          </div>
-          <input type="checkbox" value="torkoal" /><span class="pkspr pkmn-torkoal"></span> Torkoal - 20%<br />
-          <input type="checkbox" value="mudbray" /><span class="pkspr pkmn-mudbray"></span> Mudbray - 30%<br /><br />
-        <h5>Southernmost field of grass</h5>
-          <input type="checkbox" value="geodude" /><span class="pkspr pkmn-geodude form-alola"></span> Geodude - 40%<br />
-          <input type="checkbox" value="elekid" /><span class="pkspr pkmn-elekid"></span> Elekid - 10%<br />
-          <input type="checkbox" value="torkoal" /><span class="pkspr pkmn-torkoal"></span> Torkoal - 20%<br />
-          <input type="checkbox" value="mudbray" /><span class="pkspr pkmn-mudbray"></span> Mudbray - 30%<br />
-      <br />
-    </div>
-    <div id="route13">
-      <h3><a href="#route13">Route 13</a></h3>
-        <h5>Fishing</h5>
-          <input type="checkbox" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 79%<br />
-          <div class="ally">
-            <input type="checkbox" value="gyarados" /><span class="pkspr pkmn-gyarados"></span> Gyarados - Ally ^<br />
-          </div>
-          <input type="checkbox" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 20%<br />
-          <input type="checkbox" value="bruxish" /><span class="pkspr pkmn-bruxish"></span> Bruxish - 1%<br /><br />
-        <h5>Fishing at the bubbling spot</h5>
-          <input type="checkbox" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 50%<br />
-          <div class="ally">
-            <input type="checkbox" value="gyarados" /><span class="pkspr pkmn-gyarados"></span> Gyarados - Ally ^<br />
-          </div>
-          <input type="checkbox" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 30%<br />
-          <input type="checkbox" value="bruxish" /><span class="pkspr pkmn-bruxish"></span> Bruxish - 20%<br />
-      <br />
-    </div>
-    <div id="route14">
-      <h3><a href="#route14">Route 14</a></h3>
-        <h5>Surfing</h5>
-          <input type="checkbox" value="tentacool" /><span class="pkspr pkmn-tentacool"></span> Tentacool - 40%<br />
-          <input type="checkbox" value="pelipper" /><span class="pkspr pkmn-pelipper"></span> Pelippper - 20%<br />
-          <input type="checkbox" value="mudbray" /><span class="pkspr pkmn-mudbray"></span> Mudbray - 30%<br /><br />
-        <h5>Fishing</h5>
-          <input type="checkbox" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 79%<br />
-          <input type="checkbox" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 20%<br />
-          <input type="checkbox" value="bruxish" /><span class="pkspr pkmn-bruxish"></span> Bruxish - 1%<br /><br />
-        <h5>Fishing at the bubbling spot</h5>
-          <input type="checkbox" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 50%<br />
-          <div class="ally">
-            <input type="checkbox" value="gyarados" /><span class="pkspr pkmn-gyarados"></span> Gyarados - Ally ^<br />
-          </div>
-          <input type="checkbox" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 30%<br />
-          <input type="checkbox" value="bruxish" /><span class="pkspr pkmn-bruxish"></span> Bruxish - 20%<br />
-      <br />
-    </div>
-    <div id="route15">
-      <h3><a href="#route15">Route 15</a></h3>
-          <input type="checkbox" value="raticate" /><span class="pkspr pkmn-raticate form-alola"></span> Raticate - 30% (N)<br />
-          <input type="checkbox" value="slowpoke" /><span class="pkspr pkmn-slowpoke"></span> Slowpoke - 20%<br />
-          <input type="checkbox" value="pelipper" /><span class="pkspr pkmn-pelipper"></span> Pelipper - 50%<br />
-          <input type="checkbox" value="gumshoos" /><span class="pkspr pkmn-gumshoos"></span> Gumshoos - 30% (D)<br /><br />
-        <h5>Surfing</h5>
-          <input type="checkbox" value="tentacool" /><span class="pkspr pkmn-tentacool"></span> Tentacool - 40%<br />
-          <input type="checkbox" value="pelipper" /><span class="pkspr pkmn-pelipper"></span> Pelippper - 20%<br />
-          <input type="checkbox" value="mudbray" /><span class="pkspr pkmn-mudbray"></span> Mudbray - 30%<br /><br />
-        <h5>Fishing</h5>
-          <input type="checkbox" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 79%<br />
-          <div class="ally">
-            <input type="checkbox" value="gyarados" /><span class="pkspr pkmn-gyarados"></span> Gyarados - Ally ^<br />
-          </div>
-          <input type="checkbox" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 20%<br />
-          <input type="checkbox" value="bruxish" /><span class="pkspr pkmn-bruxish"></span> Bruxish - 1%<br /><br />
-        <h5>Fishing at the bubbling spot</h5>
-          <input type="checkbox" value="magikarp" /><span class="pkspr pkmn-magikarp"></span> Magikarp - 50%<br />
-          <div class="ally">
-            <input type="checkbox" value="gyarados" /><span class="pkspr pkmn-gyarados"></span> Gyarados - Ally ^<br />
-          </div>
-          <input type="checkbox" value="wishiwashi" /><span class="pkspr pkmn-wishiwashi"></span> Wishiwashi - 30%<br /><br />
-          <input type="checkbox" value="bruxish" /><span class="pkspr pkmn-bruxish"></span> Bruxish - 20%<br />
-    </div>
-    <div id="route16">
-      <h3><a href="#route16">Route 16</a></h3>
-          <input type="checkbox" value="raticate" /><span class="pkspr pkmn-raticate form-alola"></span> Raticate - 30% (N)<br />
-          <input type="checkbox" value="slowpoke" /><span class="pkspr pkmn-slowpoke"></span> Slowpoke - 20%<br />
-          <input type="checkbox" value="pelipper" /><span class="pkspr pkmn-pelipper"></span> Pelipper - 50%<br />
-          <input type="checkbox" value="gumshoos" /><span class="pkspr pkmn-gumshoos"></span> Gumshoos - 30% (D)<br />
-          <input type="checkbox" value="crabrawler" /><span class="pkspr pkmn-crabrawler"></span> Crabrawler - 100% (Berry tree)<br />
-          <input type="checkbox" value="duosion" /><span class="pkspr pkmn-duosion"></span> Duosion - One (IS)<br />
-      <br />
-    </div>
-    <div id="route17">
-      <h3><a href="#route17">Route 17</a></h3>
-          <input type="checkbox" value="raticate" /><span class="pkspr pkmn-raticate form-alola"></span> Raticate - 30% (N)<br />
-          <input type="checkbox" value="fearow" /><span class="pkspr pkmn-fearow"></span> Fearow - 30%<br />
-          <input type="checkbox" value="ledian" /><span class="pkspr pkmn-ledian"></span> Ledian - 20% (D)<br />
-          <input type="checkbox" value="ariados" /><span class="pkspr pkmn-ariados"></span> Ariados - 20% (N)<br />
-          <input type="checkbox" value="pancham" /><span class="pkspr pkmn-pancham"></span> Pancham - 20%<br />
-              <div class="ally">
-              <input type="checkbox" value="pangoro" /><span class="pkspr pkmn-pangoro"></span> Pangoro - Ally ^<br />
-              </div>
-          <input type="checkbox" value="gumshoos" /><span class="pkspr pkmn-gumshoos"></span> Gumshoos - 30% (D)<br />
-          <input type="checkbox" value="crabrawler" /><span class="pkspr pkmn-crabrawler"></span> Crabrawler - 100% (Berry tree)<br /><br />
-        <h5>Yellow grass on the mountain</h5>
-          <input type="checkbox" value="raticate" /><span class="pkspr pkmn-raticate form-alola"></span> Raticate - 30% (N)<br />
-          <input type="checkbox" value="fearow" /><span class="pkspr pkmn-fearow"></span> Fearow - 30%<br />
-          <input type="checkbox" value="graveler" /><span class="pkspr pkmn-graveler form-alola"></span> Graveler - 20%<br />
-          <input type="checkbox" value="skarmory" /><span class="pkspr pkmn-skarmory"></span> Skarmory - 10%<br />
-          <input type="checkbox" value="pancham" /><span class="pkspr pkmn-pancham"></span> Pancham - 10%<br />
-          <input type="checkbox" value="gumshoos" /><span class="pkspr pkmn-gumshoos"></span> Gumshoos - 30% (D)<br /><br />
-          <div class="ally">
-            <h5>Special allies in weather</h5>
-              <p>These Pokemon can be allies to any Pokemon in certain weather conditions</p>
-              <input type="checkbox" value="goomy" /><span class="pkspr pkmn-goomy"></span> Goomy - In rain - ~10%<br />
-              <input type="checkbox" value="castform" /><span class="pkspr pkmn-castform"></span> Castform - In rain - ~1%<br />
-              <input type="checkbox" value="castform" /><span class="pkspr pkmn-castform"></span> Castform - ~10%<br />
-            </div>
-      <br />
-    </div>
+  <a class="back-to-top btn btn-primary" href="#">Back to the top</a>
+  <p class="padding">Want to count your shiny chains? <a href="https://chain-counter.github.io">Chain Couter</a> is a online service that allows you to easily count your chains, and gives you live time shiny chances, HA chances and more!</p>
+  <p class="padding"><a href="contributions.html" target="_blank">View contributions</a> to Pokesprite</a>.</p>
   </div>
+  <script type="text/javascript">
+    PkSpr.process_dom();
+  </script>
+  <script>
+(function() {
+    var boxes = document.querySelectorAll("input[type='checkbox']");
+    for (var i = 0; i < boxes.length; i++) {
+        var box = boxes[i];
+        if (box.hasAttribute("store")) {
+            setupBox(box);
+        }
+    }
+    function setupBox(box) {
+        var storageId = box.getAttribute("store");
+        var oldVal    = localStorage.getItem(storageId);
+        console.log(oldVal);
+        box.checked = oldVal === "true" ? true : false;
+        box.addEventListener("change", function() {
+            localStorage.setItem(storageId, this.checked);
+        });
+    }
+})();
+</script>
   <a class="back-to-top btn btn-primary" href="#">Back to the top</a>
   <p class="padding">Want to count your shiny chains? <a href="https://chain-counter.github.io">Chain Couter</a> is a online service that allows you to easily count your chains, and gives you live time shiny chances, HA chances and more!</p>
   <p class="padding"><a href="contributions.html" target="_blank">View contributions</a> to Pokesprite</a>.</p>
