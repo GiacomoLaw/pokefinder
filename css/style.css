@@ -18,6 +18,10 @@ button {
   background-color: #01b213;
 }
 
+.btn-primary:hover {
+  background-color: #01700c;
+}
+
 button:hover {
     background-color: #01700c;
 }
