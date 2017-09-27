@@ -29,7 +29,7 @@ button:hover {
 .center {
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 90%;
 }
 
 .ally {
@@ -45,10 +45,35 @@ ul {
     margin: 0;
     padding: 0;
     background-color: #f1f1f1;
+    width: 100%;
+    display: table;
 }
 
-ul li {
-    display: inline-block;
+nav > ul {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+nav > ul > li {
+    width: 25%;
+    display: table-cell;
+    text-align: center;
+    padding: 1em 0;
+}
+
+@media only screen and (max-width: 512px) {
+    nav > ul > li {
+        width: 100%;
+    }
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav li:target ul {
+    display: inline;
 }
 
 li a {
@@ -57,6 +82,11 @@ li a {
      padding: 6px 14px;
      text-decoration: none;
 }
+
+nav > ul > li > a {
+    font-weight: bold;
+}
+
 
 /* Change the link color on hover */
 li a:hover {
@@ -136,4 +166,24 @@ input#lightswitch:checked + footer {
 
 input#lightswitch:checked + a {
    color: #008B8B;
+}
+
+/* Organizing the content to better fill the screen */
+@media only screen and (min-width: 1024px) {
+    .center {
+        width: 100%;
+        padding: 2em 5em;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .center > div {
+        padding: 2.5em 0.5em;
+        width: 33%;
+    }
+
+    .center > div h3, .center > div h3 + p {
+        text-align: center;
+    }
 }
