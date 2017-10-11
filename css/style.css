@@ -124,6 +124,12 @@ footer {
     color: white;
 }
 
+/* donate button styling */
+.donatebutton {
+   background-color: #edf1f7;
+   color: black;
+}
+
 input#lightswitch:checked + .main {
   background: #000d1a;
   color: white;
@@ -186,4 +192,8 @@ input#lightswitch:checked + a {
     .center > div h3, .center > div h3 + p {
         text-align: center;
     }
+}
+
+.donate-middle {
+	text-align: center;
 }

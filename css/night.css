@@ -51,3 +51,9 @@ a {
    background-color: white;
    color: black;
 }
+
+/* donate button styling */
+.donatebutton {
+   background-color: #edf1f7;
+   color: black;
+}
