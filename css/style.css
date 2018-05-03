@@ -19,11 +19,11 @@ button {
 }
 
 .btn-primary:hover {
-  background-color: #01700c;
+  background-color: #a3a3a3;
 }
 
 button:hover {
-    background-color: #01700c;
+    background-color: #a3a3a3;
 }
 
 .center {
