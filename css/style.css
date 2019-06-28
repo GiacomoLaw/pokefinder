@@ -1,199 +1,181 @@
 .padding {
-  padding-left: 10px;
+	padding-left: 10px;
 }
 
 button {
-    background-color: #01b213;
-    border: none;
-    color: white;
-    padding: 8px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    border-radius: 12px;
+	background-color: #01b213;
+	border: none;
+	color: white;
+	padding: 8px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	border-radius: 12px;
 }
 
 .btn-primary {
-  background-color: #01b213;
+	background-color: #01b213;
 }
 
 .btn-primary:hover {
-  background-color: #a3a3a3;
+	background-color: #a3a3a3;
 }
 
 button:hover {
-    background-color: #a3a3a3;
+	background-color: #a3a3a3;
 }
 
 .center {
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 }
 
 .ally {
-    color: orange;
-}
-
-.padding-plus {
-  padding-left: 30px;
+	color: orange;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #f1f1f1;
-    width: 100%;
-    display: table;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1;
+	width: 100%;
+	display: table;
 }
 
 nav > ul {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: row;
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
 }
 
 nav > ul > li {
-    width: 25%;
-    display: table-cell;
-    text-align: center;
-    padding: 1em 0;
+	width: 25%;
+	display: table-cell;
+	text-align: center;
+	padding: 1em 0;
 }
 
 @media only screen and (max-width: 512px) {
-    nav > ul > li {
-        width: 100%;
-    }
+	nav > ul > li {
+		width: 100%;
+	}
 }
 
 nav ul ul {
-    display: none;
+	display: none;
 }
 
 nav li:target ul {
-    display: inline;
+	display: inline;
 }
 
 li a {
-     display: block;
-     color: #000;
-     padding: 6px 14px;
-     text-decoration: none;
+	display: block;
+	color: #000;
+	padding: 6px 14px;
+	text-decoration: none;
 }
 
 nav > ul > li > a {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 
 /* Change the link color on hover */
 li a:hover {
-      background-color: #555;
-      color: white;
-}
-
-.header {
-    height:50px;
-}
-
-.content {
-    position:absolute;
-    top: 50px;
-    left:0px;
-    right:0px;
-    bottom:0px;
-    overflow-y:scroll;
+	background-color: #555;
+	color: white;
 }
 
 .back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: none;
 }
 
 footer {
-    background-color: #DCDCDC;
+	background-color: #DCDCDC;
 }
 
 /* Night mode button styling */
 .nmode {
-    background-color: black;
-    color: white;
+	background-color: black;
+	color: white;
 }
 
 /* donate button styling */
 .donatebutton {
-   background-color: #edf1f7;
-   color: black;
+	background-color: #edf1f7;
+	color: black;
 }
 
+/*noinspection ALL*/
 input#lightswitch:checked + .main {
-  background: #000d1a;
-  color: white;
+	background: #000d1a;
+	color: white;
 }
 
 input#lightswitch:checked + button {
-    background-color: #696969;
-    border: none;
-    color: white;
-    padding: 8px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    border-radius: 12px;
+	background-color: #696969;
+	border: none;
+	color: white;
+	padding: 8px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	border-radius: 12px;
 }
 
 input#lightswitch:checked + button:hover {
-    background-color: #DCDCDC;
+	background-color: #DCDCDC;
 }
 
 input#lightswitch:checked + ul {
-    background-color: #696969;
-    color: white;
+	background-color: #696969;
+	color: white;
 }
 
 input#lightswitch:checked + li a {
-    color: white;
+	color: white;
 }
 
 /* Change the link color on hover */
 input#lightswitch:checked + li a:hover {
-      background-color: #DCDCDC;
-      color: white;
+	background-color: #DCDCDC;
+	color: white;
 }
 
 input#lightswitch:checked + footer {
-   background-color: #696969;
+	background-color: #696969;
 }
 
 input#lightswitch:checked + a {
-   color: #008B8B;
+	color: #008B8B;
 }
 
 /* Organizing the content to better fill the screen */
 @media only screen and (min-width: 1024px) {
-    .center {
-        width: 100%;
-        padding: 2em 5em;
-        flex-wrap: wrap;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    .center > div {
-        padding: 2.5em 0.5em;
-        width: 33%;
-    }
+	.center {
+		width: 100%;
+		padding: 2em 5em;
+		flex-wrap: wrap;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
 
-    .center > div h3, .center > div h3 + p {
-        text-align: center;
-    }
+	.center > div {
+		padding: 2.5em 0.5em;
+		width: 33%;
+	}
+
+	.center > div h3, .center > div h3 + p {
+		text-align: center;
+	}
 }
 
-.donate-middle {
-	text-align: center;
-}

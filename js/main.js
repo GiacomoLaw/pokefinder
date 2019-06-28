@@ -1,9 +1,9 @@
-$(document).ready(function() {
+$(document).ready(function () {
 	var offset = 300;
 	var animating = false;
 	var backToTop = $('.back-to-top');
 
-	$(window).scroll(function() {
+	$(window).scroll(function () {
 		if ($(this).scrollTop() > offset) {
 			if (!animating) {
 				backToTop.fadeIn();
@@ -15,11 +15,11 @@ $(document).ready(function() {
 		}
 	});
 
-	backToTop.click(function() {
+	backToTop.click(function () {
 		animating = true;
 		$('body,html').animate({
 			scrollTop: 0
-		}, 500, function() {
+		}, 500, function () {
 			animating = false;
 			backToTop.fadeOut();
 		});

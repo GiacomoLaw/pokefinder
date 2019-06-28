@@ -32,8 +32,6 @@ Want to help out? If you see a bug, please feel free to fix it and submit a pull
 
 ---
 
-For contributors, please read the [contributing page](contributions.html).
-
 We use BrowserStack to test across multiple browsers:
 
 [<img src="https://raw.githubusercontent.com/GiacomoLaw/TNS-images/master/browserstack-logo-600x315.png">](https://www.browserstack.com/)
